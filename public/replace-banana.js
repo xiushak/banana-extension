@@ -1,5 +1,4 @@
 (() => {
-  console.log("hi from content script");
   function replaceText(node) {
     if (node.nodeType === Node.TEXT_NODE) {
       let text = node.textContent;
